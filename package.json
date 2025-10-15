@@ -1,0 +1,18 @@
+{
+  "name": "node-web-proxy-ui",
+  "version": "1.0.0",
+  "description": "Simple Node.js web proxy with a UI that rewrites resource URLs and serves proxied content",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.4.1",
+    "cheerio": "^1.0.0-rc.12",
+    "mime-types": "^2.1.35",
+    "helmet": "^6.0.1"
+  },
+  "type": "module"
+}
